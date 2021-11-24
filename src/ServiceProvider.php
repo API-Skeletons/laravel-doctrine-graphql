@@ -2,9 +2,9 @@
 
 namespace ApiSkeletons\Laravel\Doctrine\GraphQL;
 
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
-class ServiceProvider extends ServiceProvider 
+class ServiceProvider extends IlluminateServiceProvider 
 {
     /**
      * Register any application services.
