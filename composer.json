@@ -37,7 +37,7 @@
         "laravel": {
             "providers": [
                 "ApiSkeletons\\Laravel\\Doctrine\\GraphQL\\ServiceProvider"
-            ],
+            ]
         }
     },
     "require-dev": {
