@@ -1,12 +1,17 @@
 GraphQL for Doctrine using Hydrators for Laravel
 ================================================
 
-[![Build Status](https://travis-ci.org/API-Skeletons/doctrine-graphql.svg)](https://travis-ci.org/API-Skeletons/doctrine-graphql)
-[![Coverage](https://coveralls.io/repos/github/API-Skeletons/doctrine-graphql/badge.svg?branch=master&124)](https://coveralls.io/repos/github/API-Skeletons/doctrine-graphql/badge.svg?branch=master&124)
+[![Build Status](https://travis-ci.org/API-Skeletons/laravel-doctrine-graphql.svg)](https://travis-ci.org/API-Skeletons/laravel-doctrine-graphql)
+[![Coverage](https://coveralls.io/repos/github/API-Skeletons/laravel-doctrine-graphql/badge.svg?branch=master&124)](https://coveralls.io/repos/github/API-Skeletons/laravel-doctrine-graphql/badge.svg?branch=master&124)
 [![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)
+[![Documentation Status](https://readthedocs.org/projects/api-skeletons-laravel-doctrine-graphql/badge/?version=latest)](https://api-skeletons-laravel-doctrine-graphql.readthedocs.io/en/latest/?badge=latest)
+[![PHP Version](https://img.shields.io/badge/PHP-8.0-blue)](https://img.shields.io/badge/PHP-8.0-blue)
+[![Laravel Version](https://img.shields.io/badge/Laravel-8.x-red)](https://img.shields.io/badge/Laravel-8.x-red)
 [![Gitter](https://badges.gitter.im/api-skeletons/open-source.svg)](https://gitter.im/api-skeletons/open-source)
 [![Patreon](https://img.shields.io/badge/patreon-donate-yellow.svg)](https://www.patreon.com/apiskeletons)
-[![Total Downloads](https://poser.pugx.org/api-skeletons/doctrine-graphql/downloads)](https://packagist.org/packages/api-skeletons/doctrine-graphql)
+[![Total Downloads](https://poser.pugx.org/api-skeletons/laravel-doctrine-graphql/downloads)](https://packagist.org/packages/api-skeletons/doctrine-graphql)
+[![License](https://poser.pugx.org/api-skeletons/laravel-doctrine-hal/license)](//packagist.org/packages/api-skeletons/laravel-doctrine-graphql)
+
 
 ## This repository is a work in progress
 
