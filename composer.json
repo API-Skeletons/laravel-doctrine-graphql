@@ -1,6 +1,6 @@
 {
-    "name": "api-skeletons/doctrine-graphql",
-    "description": "GraphQL for Doctrine using Hydrators",
+    "name": "api-skeletons/laravel-doctrine-graphql",
+    "description": "GraphQL for Doctrine using Hydrators for Laravel",
     "type": "library",
     "license": "MIT",
     "authors": [
