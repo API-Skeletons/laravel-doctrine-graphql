@@ -31,7 +31,7 @@ final class ConfigurationSkeletonCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Auto-generating configuration tool";
+    protected $description = 'Auto-generating configuration tool';
 
     /**
      * Create a new command instance.
@@ -59,16 +59,16 @@ final class ConfigurationSkeletonCommand extends Command
 
         $config = [];
 
-        $hydratorSections = $this->option('hydrator-section') ?? ['default'];
+        $hydratorSections = $this->option("hydrator-section") ?? ["default"];
 
         foreach ($hydratorSections as $section) {
             foreach ($metadata as $classMetadata) {
-                $hydratorAlias = 'ApiSkeletons\\Laravel\\Doctrine\\GraphQL\\Hydrator\\'
-                    . str_replace('\\', '_', $classMetadata->getName());
+                $hydratorAlias = "ApiSkeletons\\Laravel\\Doctrine\\GraphQL\\Hydrator\\"
+                    . str_replace("\\", "_", $classMetadata->getName());
 
                 $strategies = [];
                 $filters = [];
-                $documentation = ['_entity' => ''];
+                $documentation = ["_entity" => ""];
 
                 // Sort field names
                 $fieldNames = $classMetadata->getFieldNames();
@@ -147,7 +147,7 @@ final class ConfigurationSkeletonCommand extends Command
 
                 $config[$hydratorAlias][$section] = [
                     'entity_class' => $classMetadata->getName(),
-                    'object_manager' => $objectManagerAlias,
+                    'object_manager' => $this->option('entity-manager'),
                     'by_value' => true,
                     'use_generated_hydrator' => true,
                     'hydrator' => null,
@@ -166,7 +166,7 @@ final class ConfigurationSkeletonCommand extends Command
 
         echo $writer->toString($configObject);
 
-        $this->info('Configuration complete");
+        $this->info('Configuration complete');
 
         return 0;
     }
